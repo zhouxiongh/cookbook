@@ -14,7 +14,7 @@ if __name__ == "__main__":
     print(','.join(str(d) for d in data))
 
     # 避免不必要的连接操作
-    a,b,c = '1','2','3'
+    a,b,c = '1','2_str-and-text','3'
     print(a + ':' + b + ':' + c) # Ugly
     print(':'.join([a, b, c])) # Still ugly
     print(a, b, c, sep=':') # Better

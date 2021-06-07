@@ -23,7 +23,7 @@ if __name__ == '__main__':
     # 对于复杂的模式，请使用 re 模块中的 sub() 函数
     text = 'Today is 11/27/2012. PyCon starts 3/13/2013.'
     datepat = re.compile(r'(\d+)/(\d+)/(\d+)')
-    # text = datepat.sub(r'\3-\1-\2', text)
+    # text = datepat.sub(r'\3-\1-\2_str-and-text', text)
     print(text)
     # 对于更加复杂的替换，可以传递一个替换回调函数来代替
     text, n = datepat.subn(change_date, text)

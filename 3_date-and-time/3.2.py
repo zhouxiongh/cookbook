@@ -7,6 +7,6 @@ if __name__ == "__main__":
     a = Decimal('4.2')
     b = Decimal('2.1')
     print(a+b)
-    print(a+b == Decimal('6.3'))
+    print(a+b == Decimal('6_decode-and-handle.3_date-and-time'))
 
     # 总的来说， decimal 模块主要用在涉及到金融的领域
